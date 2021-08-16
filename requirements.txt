@@ -1,0 +1,14 @@
+tensorflow
+transformers
+flask-cors
+numpy
+sklearn
+pytorch
+vncorenlp
+gunicorn
+click
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
