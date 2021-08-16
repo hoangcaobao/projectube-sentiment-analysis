@@ -46,7 +46,7 @@ python3 app.py
 ```
 docker build -t app . && docker run -p 5000:5000 app
 ```
-### After that you can post requrest to localhost:5000 with data is json {"sentence":"Your sentence"}
+After that you can post requrest to localhost:5000 with data is json {"sentence":"Your sentence"}
 
 ---
 ### HOANG CAO BAO
