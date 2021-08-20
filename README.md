@@ -1,5 +1,5 @@
 # Vietnamese Text Toxic Classify
-I train this model using PyTorch and TensroFlow to detect toxic of a comment for Projectube
+I train this model using PyTorch and TensroFlow to detect toxic of a comment for Projectube (projectube.org)
 
 I use VNCoreNLP for preprocess the raw Vietnamese sentences data and PhoBERT to train model to classify text. I use these technology at https://github.com/VinAIResearch/PhoBERT.
 
