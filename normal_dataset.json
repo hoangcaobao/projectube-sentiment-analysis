@@ -1,11 +1,11 @@
 [
 {
     "sentences": "tổ chức ý nghĩa phết",
-    "sacarism": "0"
+    "toxic": "0"
 },
 {
     "sentences": "sự kiện có tổ chức lúc dịch bệnh như này không",
-    "sacarism": "0"
+    "toxic": "0"
 }
 ]
 //You add your own Vietnamese normal sentences using same format above (REMEMBER TO DELETE THIS LINE)

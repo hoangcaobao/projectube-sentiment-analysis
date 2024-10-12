@@ -12,7 +12,7 @@ def get_data(all_path):
       datastore=json.load(f)
     for item in datastore:
       sentences.append(item["sentences"])
-      labels.append(item["sacarism"])
+      labels.append(item["toxic"])
   return sentences, labels
 
 def sentences_segment(sentences, rdrsegmenter):

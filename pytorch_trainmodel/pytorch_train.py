@@ -17,7 +17,7 @@ tokenizer=AutoTokenizer.from_pretrained('vinai/phobert-base')
 rdrsegmenter=VnCoreNLP("vncorenlp/VnCoreNLP-1.1.1.jar", annotators="wseg", max_heap_size='-Xmx500m')
 
 #get data
-sentences,labels=get_data(['sacarism_dataset.json','normal_dataset.json'])
+sentences,labels=get_data(['toxic_dataset.json','normal_dataset.json'])
 sentences_segment(sentences, rdrsegmenter)
 padded,labels=shuffle_and_tokenize(sentences,labels,check_maxlen(sentences), tokenizer)
 X_train,X_val,X_test, y_train,y_val, y_test=split_data(padded, labels)

@@ -13,7 +13,7 @@ phobert = TFAutoModel.from_pretrained("vinai/phobert-base")
 tokenizer=AutoTokenizer.from_pretrained('vinai/phobert-base')
 
 #get data
-sentences,labels=get_data(['sacarism_dataset.json','normal_dataset.json'])
+sentences,labels=get_data(['toxic_dataset.json','normal_dataset.json'])
 sentences_segment(sentences, rdrsegmenter)
 sentences, padded,labels=shuffle_and_tokenize(sentences,labels,check_maxlen(sentences), tokenizer)
 X_train, X_val, y_train, y_val=split_data(padded, labels)
